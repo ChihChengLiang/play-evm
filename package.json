@@ -1,0 +1,22 @@
+{
+  "name": "play-evm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "ts-node pushPushAdd.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/vm": "^5.4.1",
+    "@types/node": "^15.12.5",
+    "ethereum-common": "github:ethereumjs/common",
+    "ethereumjs-util": "^7.0.10",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0"
+  }
+}
